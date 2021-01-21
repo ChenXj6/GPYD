@@ -1,0 +1,73 @@
+.layui-carousel-ind ul,
+.layui-carousel-ind ul:hover {
+    background: none
+}
+
+.layui-carousel-ind li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle
+}
+
+.layui-carousel-ind li.layui-this {
+    background-color: #124c8e;
+    border: 2px solid hsla(0, 0%, 100%, .8)
+}
+
+.service {
+    position: relative
+}
+
+.service .bounced_message_box {
+    position: absolute;
+    bottom: -103px;
+    left: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ4AAABYBAMAAAD2PwTIAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAMFBMVEUZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoZGRoAAAANzeQoAAAAD3RSTlMAUyTcCb7mjSGc2SPY29qOgCPnAAAAAWJLR0QPGLoA2QAAAAd0SU1FB+MMHg4jAeoCZNwAAAC/SURBVGje7dohCgJRGEXhqwgKFpNZsJoMZsvsQOwi/mIYMJldhcFgHLC5AJPVlbgL3zxsdu+A52zgfgu40netgRrReOoW5DrLzdxtqOtG7N2GumHEym1ItWcR65FbIRWRWrgV0qF2bH8+2zuHv+tRd7ch99TJTcjtVLkJuVJuwSccOHDgwIEDBw4cOHDgwIEDBw4cOHD4w4EDBw4cOHDgwIEDBw4cOHDgwPFnjsotyJWN+fVN3ITcQ/2L25B63d6rY9zXPkheGQAAAABJRU5ErkJggg==) no-repeat;
+    width: 270px;
+    height: 88px;
+    z-index: 99;
+    padding-top: 13px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.service .bounced_message_box p:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff
+}
+
+.service .bounced_message_box p:nth-child(2) {
+    color: #fff;
+    font-size: 12px
+}
+
+.seckill_bg {
+    width: 1210px;
+    height: 255px;
+    background: url(/static/img/seckill_banner.519eb01.png) no-repeat;
+    margin: 0 auto;
+    position: relative
+}
+
+.goSeckill {
+    left: 48px
+}
+
+.goSeckill,
+.goVenue {
+    width: 222px;
+    height: 50px;
+    position: absolute;
+    top: 148px;
+    cursor: pointer
+}
+
+.goVenue {
+    right: 48px
+}
